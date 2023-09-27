@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@500&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+html{
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(77, 118, 229);
+    color: white;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    border: 2px solid;
+    border-radius: 25px;
+    width: 650px;
+    margin-bottom: 65px;
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.header{
+    display: flex;
+    height: 100px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+    color: white;
+}
+
+.time{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    border: 2px solid white;
+    width: 430px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.hour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    font-size: 55px ;
+}
+
+.min{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    font-size: 55px ;
+}
+
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    font-size: 55px ;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 65px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+button{
+    height: 75px;
+    width: 120px;
+    background:rgb(153, 174, 233);
+    background: linear-gradient(top, #555, #333);
+    border: none;
+    border-top: 3px solid rgb(133, 14, 123);
+    border-radius: 0 0 0.2em 0.2em;
+    color: rgb(163, 11, 54);
+    font-size: 1.5em;
+    transform-origin: 50% 5em;
+    cursor: pointer;
+}
+
+.hcont{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 65px;
+    margin-bottom: 25px;
+}
+h1{
+    margin-bottom: 45px;
+}
+
+button:active{
+    transform: translateY(4px);
+}
