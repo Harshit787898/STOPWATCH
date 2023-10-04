@@ -1,5 +1,1 @@
-## STOPWATCH
-
-```
-stopwatch
-```
+# STOPWATCH
